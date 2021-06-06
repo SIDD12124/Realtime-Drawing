@@ -38,8 +38,8 @@ function draw(){
 
     document.getElementById("square_side").innerHTML = "Width And Height of a Square Will Be = " + difference + "px";
 
-    fill('#a62c2b');
-    stroke('#a62c2b');
+    fill('green');
+    stroke('green');
     square(noseX, noseY, difference);
 }
 
